@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ic_launcher.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/my-ticket.css">
+    <title>My-ticket</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-link">
+                <a href="index.html" class="goback">
+                    <img class="goback__img" src="image/img-my-ticket/goback.png" alt="$">
+                    <div class="goback__title">Мои билеты</div>
+                </a>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <nav class="nav">
+                <a href="#" class="nav__button nav__button--active ">Транспорт</a>
+                <a href="#" class="nav__button nav__button--non-active">Другое</a>
+            </nav>
+        </div>
+    </header>
+    <section class="days">
+        <div class="days__container">
+            <p class="text days__text">Сегодня</p>
+
+        </div>
+    </section>
+    <section class="purchased-cart">
+        <div id="myBtn" class="cart">
+            <div class="cart__left">
+                <img class="cart__left-img" src="image/img-my-ticket/onay.png" alt="">
+            </div>
+
+            <div class="cart__right">
+                <div class="cart__content-top">
+                    <p class="text-w autobus">Автобус</p>
+                    <p class="text city">Г.Алматы, электронный билет</p>
+                </div>
+                <div class="cart__content-bottom">
+                    <div class="cart__content-bottom__left">
+                        <p class="text text-padding">Маршрут:</p>
+                        <p class="text text-padding">Время:</p>
+                        <p class="text text-padding">Цена:</p>
+                        <p class="text">Код проверки:</p>
+                    </div>
+                    <div class="cart__content-bottom__right">
+                        <div class="cart__content-bottom__right__box box-padding">
+                            <img src="image/img-my-ticket/ic_bus.png" alt="" class="cart-content-bottom__right__box-image">
+                            <p class="text text-wt" id="number"></p>
+                            <p class="text-number">349CN02</p>
+                        </div>
+                        <div class="cart__content-bottom__right__box">
+                            <p class="data text-wt"></p>
+                            <p class="data-time text-wt padding-text"></p>
+                        </div>
+                            <p class="price">80 ₸</p>
+                        <div class="cod-box">
+                            <p class="cod">B5712</p>
+                            <img src="image/img-my-ticket/cod.png" alt="" class="cod-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/my-ticket.js"></script>
+</body>
+</html>

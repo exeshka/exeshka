@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+
+.:hover {
+    color: rgb(0, 0, 0);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration:none ;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+    height: 100%;
+    background-color: #F3F3F3;
+    user-select:none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.header__top-link {
+    background-color: white;
+
+    
+}
+
+.goback {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.goback__title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+    text-decoration: none;
+    color:#000016 ;
+}
+
+
+.nav {
+    border-top: 2px solid #EEEEEE;
+    width: 100vr;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #FBFCFE;
+}
+
+.nav__button {
+    text-align: center;
+    width: 50%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+.cart {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #1B191F;
+
+} 
+
+.nav__button--active {
+    border-bottom: 3px #F3D96B solid;
+}
+.nav__button--non-active {
+    border-bottom: 3px #EDEDED solid;
+    color: #777777;
+}
+
+
+.cart__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 180px;
+    background-color: #FED703;
+    border-radius: 10px 0 0 10px;
+}
+
+.cart__right {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    justify-content: space-between;
+    
+}
+
+.cart__left-img {
+    transform: rotate(-90deg);
+    width: 80px;
+    
+}
+
+.cart__content-top {
+
+    padding-bottom: 0;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.cart__content-bottom__right__box {
+    align-items: center;
+    display: flex;
+
+}
+
+.text-wt {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.padding-text {
+    padding-left: 5px;
+}
+
+.cart__content-bottom {
+    padding: 5%;
+    display: flex;
+    
+}
+
+
+
+
+.cart__content-bottom__left {
+    margin-right: 15px;
+}
+.cart-content-bottom__right__box-image {
+    width: 16px;
+
+    margin-right: 3px;
+}
+.text-number {
+    margin: 0 5px;
+    background-color: #F8F9FD;
+    color: #6E7075;
+    padding: 2px 2px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.autobus {
+    margin-bottom: 3px;
+}
+
+.text-w {
+    font-weight: 700;
+}
+
+.text {
+    font-size: 13px;
+    color: #1B191F;
+}
+
+.text-padding {
+    padding-bottom: 10px;
+}
+
+.box-padding {
+    padding-bottom: 7px;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.cod {
+    font-size: 13PX;
+    font-weight: 700;
+
+}
+
+.cod-box {
+    display: flex;
+    align-items: center;
+    padding-top: 1px;
+}
+
+.cod-image {
+    width: 35px;
+}
+
+/* Модальный (фон) */
+.modal {
+    display: flex; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+
+    background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+  }
+  
+  /* Модальное содержание/коробка */
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+ /* 15% сверху и по центру */
+
+
+    width: 100%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  }
+
+.days {
+    margin-bottom: 20px;
+}
+
+.days__container {
+    display: flex;
+    justify-content: center;
+    
+}
+.days__text {
+    padding: 3px 10px;
+    background-color: white;
+    border-radius: 30px;
+    color: #6E7075;
+}
