@@ -57,3 +57,8 @@ I am an experienced **Flutter developer** with **3 years** of expertise in build
 💼 GitHub: **[exeshka](https://github.com/exeshka?tab=repositories)**  
 
 💬 Open to collaborations & ready to showcase my work in action! 🚀🎉
+
+
+
+![.](https://github.com/user-attachments/assets/af5b0b23-68b9-4025-8adc-697d2639a5d5)
+
